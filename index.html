@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .progress-bar {
+            width: 100%;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .progress {
+            height: 20px;
+            border-radius: 5px;
+        }
+
+        .life-progress {
+            background-color: red;
+        }
+
+        .health-progress {
+            background-color: blue;
+        }
+
+        .money-progress {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar">
+        <p class="progress-bar-title">Life</p>
+        <div class="progress life-progress" style="width: 50%;"></div>
+    </div>
+
+    <div class="progress-bar">
+        <p class="progress-bar-title">Health</p>
+        <div class="progress health-progress" style="width: 75%;"></div>
+    </div>
+
+    <div class="progress-bar">
+        <p class="progress-bar-title">Money</p>
+        <div class="progress money-progress" style="width: 60%;"></div>
+    </div>
+</body>
+</html>
